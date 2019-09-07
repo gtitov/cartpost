@@ -8,10 +8,10 @@ title: Авторы
         <li>
             <div id="author-in-list" class="row">
                 <div class="col s12 m2">
-                    <img src="/assets/images/gman.jpg" alt="" class="circle responsive-img" style="width: 150px">
+                    <img src={{ "assets/images/" | append: author.image }} alt="" class="circle responsive-img" style="width: 150px">
                 </div>
                 <div class="col s12 m10">
-                    <h4><a href="{{ author.url | relative_url }}">{{ author.name }}</a></h4>
+                    <h4><a href={{ author.url | relative_url }}>{{ author.name }}</a></h4>
                     <div class="flow-text">
                         {{ author.content | markdownify }}
                     </div>
