@@ -1,0 +1,25 @@
+<nav>
+    <div class="nav-wrapper white">
+        <a class="brand-logo center black-text hide-on-small-only" href={{ "/" | relative_url }}>Cartographic Post</a>
+        <a class="brand-logo center black-text hide-on-med-and-up" href={{ "/" | relative_url }}>CPost</a>
+        <a href="#" data-target="navbar" class="sidenav-trigger show-on-large right">
+            <i class="material-icons">menu</i>
+        </a>
+    </div>
+</nav>
+
+<ul id="navbar" class="sidenav">
+    <li><a href="{{ '/' | relative_url }}">Публикации</a></li>
+    <!-- <li><a href="#">Категории</a></li> -->
+    <li><a href="{{ 'authors.html' | relative_url }}">Авторы</a></li>
+    <li><a href="{{ 'about.html' | relative_url }}">О нас</a></li>
+</ul>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {
+            edge: "right"
+        });
+    });
+</script>

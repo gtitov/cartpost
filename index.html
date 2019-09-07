@@ -1,0 +1,16 @@
+---
+title: Публикации
+---
+<div class="container">
+    <ul>
+        {% for post in site.posts %}
+        <li class="postPreview">
+            <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+            <div class="flow-text">
+                {{ post.excerpt }}
+            </div>
+        </li>
+        <div class="divider"></div>
+        {% endfor %}
+    </ul>
+</div>

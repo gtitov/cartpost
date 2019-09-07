@@ -1,0 +1,85 @@
+/*
+GENERAL
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    color: #333333;
+}
+
+a {
+    color: #555555;
+}
+
+a:hover {
+    color: #000000;
+}
+
+h4 a {
+    color: #333333;
+}
+
+h4 a:hover {
+    color: #000000;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+blockquote {
+    border-left: 5px solid #ffca28;
+}
+
+#author-head .col {
+    padding-left: 0;
+}
+
+#author-in-list h4 {
+    margin-top: 0;
+}
+
+
+
+
+/*
+NAVIGATION BAR
+*/
+nav {
+    margin-bottom: 4em;
+}
+
+nav .brand-logo {
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+}
+
+.sidenav-trigger i {
+    color: #757575;
+}
+
+
+/*
+MEDIA QUERIES
+*/
+// On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    nav .brand-logo {
+        font-size: 30px;
+    }
+}
+
+// On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+    h1 {font-size: 2.6rem;line-height: 110%;margin: 1.956rem 0 1.536rem 0;}
+    h2 {font-size: 2.2rem;line-height: 110%;margin: 1.636rem 0 1.28rem 0;}
+    h3 {font-size: 1.8rem;line-height: 110%;margin: 1.316rem 0 1.024rem 0;}
+    h4 {font-size: 1.8rem;line-height: 110%;margin: 0.996rem 0 0.768rem 0;}
+    h5 {font-size: 1.0rem;line-height: 110%;margin: 0.676rem 0 0.512rem 0;}
+    h6 {font-size: 1.0rem;line-height: 110%;margin: 0.356rem 0 0.256rem 0;}
+}

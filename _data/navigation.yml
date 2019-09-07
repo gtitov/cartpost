@@ -1,0 +1,6 @@
+- name: Публикации
+  link: blog.html
+- name: Авторы
+  link: authors.html
+- name: О нас
+  link: about.html
