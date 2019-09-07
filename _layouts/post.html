@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container post">
     <h1 id="title">{{ page.title }}</h1>
-    <p id="date">{{ page.date | date: "%d.%m.%y"}} 
+    <p id="date">{{ page.date | date: "%d.%m.%y"}}
         {% assign author = site.authors | where: 'short_name', page.author | first %}
         {% if author %}
         <a href="{{ author.url | relative_url }}">{{ author.name }}</a>
@@ -18,3 +18,10 @@ layout: default
 <!-- Code highlighting -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('code').forEach((block) => {
+            hljs.highlightBlock(block);
+        });
+    });
+</script>
