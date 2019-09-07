@@ -32,12 +32,20 @@ p {
     color: #333333;
 }
 
+strong{
+    font-weight: 700;
+}
+
+.flow-text {
+    font-size: 90%;
+}
+
 blockquote {
     border-left: 5px solid #ffca28;
 }
 
 code {
-    font-size: 80%;
+    font-size: 70%;
 }
 
 #author-head .col {
