@@ -6,7 +6,7 @@ title: Публикации
         {% for post in site.posts %}
         <li class="postPreview">
             <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-            <div class="flow-text">
+            <div class="flow-text truncate">
                 {{ post.excerpt }}
             </div>
         </li>
