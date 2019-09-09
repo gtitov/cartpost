@@ -1,6 +1,6 @@
 ---
-short_name: gman
-name: Test User
+short_name: Gman
+name: Герман Титов
 position: Sinister Interdimensional Bureaucrat
 image: gman.jpg
 ---
