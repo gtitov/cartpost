@@ -4,7 +4,11 @@ layout: default
 <div class="container">
     <div id="author-head" class="row">
         <div class="col s12 m4 push-m8 avatar">
-            <img src={{ "assets/images/" | append: page.image | relative_url }} alt="" class="circle responsive-img">
+            {% if page.image == null %}
+                <img src={{ "assets/images/author.png" | relative_url }} alt="profile photo" class="circle responsive-img">
+            {% else %}
+                <img src={{ "assets/images/" | append: page.image | relative_url }} alt="profile photo" class="circle responsive-img">
+            {% endif %}
         </div>
         <div class="col s12 m8 pull-m4">
             <h1>{{ page.name }}</h1>
