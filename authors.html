@@ -8,7 +8,11 @@ title: Авторы
         <li>
             <div id="author-in-list" class="row">
                 <div class="col s12 m2 avatar">
-                    <img src={{ "assets/images/" | append: author.image | relative_url}} alt="" class="circle responsive-img">
+                    {% if page.image == null %}
+                        <img src={{ "assets/images/author.png" | relative_url }} alt="profile photo" class="circle responsive-img">
+                    {% else %}
+                        <img src={{ "assets/images/" | append: author.image | relative_url }} alt="profile photo" class="circle responsive-img">
+                    {% endif %}
                 </div>
                 <div class="col s12 m10">
                     <h4><a href={{ author.url | relative_url }}>{{ author.name }}</a></h4>
