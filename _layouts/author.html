@@ -15,12 +15,12 @@ layout: default
         {{ content }}
     </div>
     <div class="divider"></div>
-    <h2>Публикации</h2>
+    <h3>Публикации</h3>
     <ul>
         {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
         {% for post in filtered_posts %}
         <li>
-            <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+            <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
         </li>
         {% endfor %}
     </ul>
