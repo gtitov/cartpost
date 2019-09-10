@@ -2,5 +2,5 @@
   link: blog.html
 - name: Авторы
   link: authors.html
-- name: О нас
-  link: about.html
+- name: Правила публикаций
+  link: rules.html
