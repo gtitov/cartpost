@@ -52,6 +52,10 @@ ul:not(.browser-default) li {
     list-style-type: disc;
 }
 
+ul.postPreview li {
+    list-style-type: none;
+}
+
 strong {
     font-weight: 700;
 }
