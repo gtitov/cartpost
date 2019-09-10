@@ -10,7 +10,7 @@
 
 <ul id="navbar" class="sidenav">
     {% for item in site.data.navigation %}
-    <li {% if page.url == item.link %}class="active"{% endif %}>
+    <li>
       <a href="{{ item.link | relative_url}}">
         {{ item.name }}
       </a>
