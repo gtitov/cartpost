@@ -9,10 +9,13 @@
 </nav>
 
 <ul id="navbar" class="sidenav">
-    <li><a href="{{ "" | relative_url }}">Публикации</a></li>
-    <!-- <li><a href="#">Категории</a></li> -->
-    <li><a href="{{ 'authors.html' | relative_url }}">Авторы</a></li>
-    <li><a href="{{ 'about.html' | relative_url }}">О нас</a></li>
+    {% for item in site.data.navigation %}
+    <li {% if page.url == item.link %}class="menu-selected"{% endif %}>
+      <a href="{{ item.link | relative_url}}">
+        {{ item.name }}
+      </a>
+    </li>
+  {% endfor %}
 </ul>
 
 <script>
