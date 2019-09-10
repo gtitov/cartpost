@@ -27,12 +27,18 @@ h4 a:hover {
     color: #000000;
 }
 
-p {
+p, ol {
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
 
-strong{
+ul {
+    list-style-type: disc;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+strong {
     font-weight: 700;
 }
 
