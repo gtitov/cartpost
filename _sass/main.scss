@@ -38,11 +38,14 @@ ol {
     color: #333333;
 }
 
-ul {
+ul:not(.browser-default) {
+	padding-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+ul:not(.browser-default) li {
     list-style-type: disc;
-    padding-left: 40px;
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
 }
 
 strong {
