@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container post">
     <h1 id="title">{{ page.title }}</h1>
-    <p id="date">{{ page.date | date: "%d.%m.%y"}}
+    <p class="dateInfo">{{ page.date | date: "%d.%m.%y"}}
         {% assign author = site.authors | where: 'short_name', page.author | first %}
         {% if author %}
             <a href="{{ author.url | relative_url }}">{{ author.name }}</a>
