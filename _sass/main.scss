@@ -33,7 +33,9 @@ p {
 }
 
 ol {
-    padding-left: 40px;
+	padding-left: 30px;
+	margin-top: 10px;
+    margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
@@ -41,7 +43,9 @@ ol {
 ul:not(.browser-default) {
 	padding-left: 30px;
 	margin-top: 10px;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
 }
 
 ul:not(.browser-default) li {
