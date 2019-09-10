@@ -6,6 +6,12 @@ title: Публикации
         {% for post in site.posts %}
         <li class="postPreview">
             <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+            <p id="date">{{ page.date | date: "%d.%m.%y"}}
+                {% assign author = site.authors | where: 'short_name', page.author | first %}
+                {% if author %}
+                    <a href="{{ author.url | relative_url }}">{{ author.name }}</a>
+                {% endif %}
+            </p>
             <div class="flow-text">
                 {{ post.excerpt }}
             </div>
