@@ -32,30 +32,6 @@ p {
     color: #333333;
 }
 
-ol {
-	padding-left: 30px;
-	margin-top: 10px;
-    margin-bottom: 15px;
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
-}
-
-ul:not(.browser-default) {
-	padding-left: 30px;
-	margin-top: 10px;
-    margin-bottom: 15px;
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
-}
-
-ul:not(.browser-default) li {
-    list-style-type: disc;
-}
-
-ul li.postPreview {
-    list-style-type: none;
-}
-
 strong {
     font-weight: 700;
 }
@@ -74,6 +50,26 @@ code {
 
 .post-text {
     font-size: 80%;
+}
+
+.post-text ul:not(.browser-default) {
+	padding-left: 30px;
+	margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+.post-text ul:not(.browser-default) li {
+    list-style-type: disc;
+}
+
+ol {
+	padding-left: 30px;
+	margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
 }
 
 .post-text img {
