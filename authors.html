@@ -6,7 +6,7 @@ title: Авторы
     <ul>
         {% for author in site.authors %}
         <li>
-            <div id="author-in-list" class="row">
+            <div class="row author-in-list">
                 <div class="col s12 m2 avatar">
                     {% if author.image == null %}
                         <img src={{ "assets/images/author.png" | relative_url }} alt="profile photo" class="circle responsive-img">

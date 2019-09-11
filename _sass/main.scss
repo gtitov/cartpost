@@ -79,6 +79,18 @@ ol {
     width: 70%;
 }
 
+.author-in-list {
+    margin-top: 15px;
+}
+
+.author-in-list h4 {
+    margin-top: 0;
+}
+
+.author-in-list .avatar img {
+    width: 140px;
+}
+
 #author-head .col {
     padding-left: 0;
 }
@@ -87,11 +99,11 @@ ol {
     width: 200px;
 }
 
-#author-in-list h4 {
+.author-in-list h4 {
     margin-top: 0;
 }
 
-#author-in-list .avatar img {
+.author-in-list .avatar img {
     width: 140px;
 }
 
