@@ -41,15 +41,15 @@ blockquote {
 }
 
 code {
-    // font-size: 60%;
+    font-size: 70%;
 }
 
 .dateInfo {
-    // font-size: 120%;
+    font-size: 70%;
 }
 
 .post-text {
-    // font-size: 80%;
+    font-size: 80%;
 }
 
 .post-text ul:not(.browser-default) {
@@ -108,7 +108,7 @@ ol {
 }
 
 #author-position {
-    // font-size: 150%;
+    font-size: 70%;
 }
 
 #navbar {
@@ -145,12 +145,12 @@ MEDIA QUERIES
     }
 }
 
-// On screens that are 600px or less */
-// @media screen and (max-width: 600px) {
-//     h1 {font-size: 2.6rem;line-height: 110%;margin: 1.956rem 0 1.536rem 0;}
-//     h2 {font-size: 2.2rem;line-height: 110%;margin: 1.636rem 0 1.28rem 0;}
-//     h3 {font-size: 2.0rem;line-height: 110%;margin: 1.316rem 0 1.024rem 0;}
-//     h4 {font-size: 1.8rem;line-height: 110%;margin: 0.996rem 0 0.768rem 0;}
-//     h5 {font-size: 1.4rem;line-height: 110%;margin: 0.676rem 0 0.512rem 0;}
-//     h6 {font-size: 1.0rem;line-height: 110%;margin: 0.356rem 0 0.256rem 0;}
-// }
+On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+    h1 {font-size: 2.6rem;line-height: 110%;margin: 1.956rem 0 1.536rem 0;}
+    h2 {font-size: 2.2rem;line-height: 110%;margin: 1.636rem 0 1.28rem 0;}
+    h3 {font-size: 2.0rem;line-height: 110%;margin: 1.316rem 0 1.024rem 0;}
+    h4 {font-size: 1.8rem;line-height: 110%;margin: 0.996rem 0 0.768rem 0;}
+    h5 {font-size: 1.4rem;line-height: 110%;margin: 0.676rem 0 0.512rem 0;}
+    h6 {font-size: 1.0rem;line-height: 110%;margin: 0.356rem 0 0.256rem 0;}
+}
