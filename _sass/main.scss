@@ -138,14 +138,14 @@ nav .brand-logo {
 /*
 MEDIA QUERIES
 */
-// On screens that are 992px or less */
+// On screens that are 992px or less
 @media screen and (max-width: 992px) {
     nav .brand-logo {
         font-size: 30px;
     }
 }
 
-On screens that are 600px or less */
+// On screens that are 600px or less */
 @media screen and (max-width: 600px) {
     h1 {font-size: 2.6rem;line-height: 110%;margin: 1.956rem 0 1.536rem 0;}
     h2 {font-size: 2.2rem;line-height: 110%;margin: 1.636rem 0 1.28rem 0;}
