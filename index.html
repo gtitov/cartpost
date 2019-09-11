@@ -1,13 +1,13 @@
 ---
 title: Публикации
 ---
-<div class="container">
+<div class="container flow-text">
     <ul>
         {% for post in site.posts %}
         <li class="postPreview">
             <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
             <p class="dateInfo">{{ post.date | date: "%d.%m.%y"}}</p>
-            <div class="flow-text">
+            <div>
                 {{ post.excerpt }}
             </div>
         </li>

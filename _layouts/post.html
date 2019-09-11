@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="container post">
+<div class="container post flow-text">
     <h1 id="title">{{ page.title }}</h1>
     <p class="dateInfo">{{ page.date | date: "%d.%m.%y"}}
         {% assign author = site.authors | where: 'short_name', page.author | first %}
@@ -10,10 +10,8 @@ layout: default
         {% endif %}
     </p>
     <div class="divider"></div>
-    <div class="flow-text">
-        <div class="post-text">
-            {{ content }}
-        </div>
+    <div class="post-text">
+        {{ content }}
     </div>
 </div>
 

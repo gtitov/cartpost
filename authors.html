@@ -1,7 +1,7 @@
 ---
 title: Авторы
 ---
-<div class="container">
+<div class="container flow-text">
     <h1>Авторы</h1>
     <ul>
         {% for author in site.authors %}
@@ -16,7 +16,7 @@ title: Авторы
                 </div>
                 <div class="col s12 m10">
                     <h4><a href={{ author.url | relative_url }}>{{ author.name }}</a></h4>
-                    <div class="flow-text">
+                    <div>
                         {{ author.content | markdownify }}
                     </div>
                 </div>
