@@ -1,6 +1,6 @@
 ---
 short_name: Gman
 name: Герман Титов
-position: студент
+position: автор
 image: author.png
 ---
